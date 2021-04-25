@@ -1,4 +1,4 @@
-.navbar {
+.navbar-alpha {
     background-color: rgba(0,0,0,0.75);
 }
 
@@ -34,9 +34,9 @@
   }
 
   .band-pic {
+    display: flex;
     height: max-content;
     max-height: 100%;
-    display: flex;
   }
 
   @media (min-width: #{$layout-breakpoint}) {
@@ -59,8 +59,8 @@
       grid-row: 1 / span 4;
     }
     .band-pic img {
-      filter: brightness(50%);
       z-index: -50;
+      filter: brightness(50%);
     }
     .band-name {
       grid-row: 2 / span 2;

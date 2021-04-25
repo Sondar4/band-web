@@ -1,0 +1,20 @@
+@media (min-width: #{$layout-breakpoint}) {
+  .miembros {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .card {
+    margin: auto;
+  }
+}
+
+@media (min-width: #{$layout-big-breakpoint}) {
+  .miembros {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+}
