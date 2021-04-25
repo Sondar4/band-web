@@ -1,0 +1,9 @@
+@use "sass:color";
+
+// General styles
+$layout-breakpoint: 720px;
+$layout-big-breakpoint: 1020px;
+
+// Footer
+$footer-link-color: #212529;
+$footer-link-color-hover: color.adjust(#212529, $alpha: -0.4);

@@ -1,0 +1,52 @@
+.footer {
+  justify-content: space-around;
+
+  .fab {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: #{$layout-breakpoint}) {
+    justify-content: space-between;
+  }
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  width: max-content;
+
+  list-style-type: none;
+
+  li {
+    text-decoration: none;
+  }
+
+  a {
+    display: block;
+    padding: .5rem .75rem;
+  }
+
+  a:link,
+  a:visited,
+  a:active,
+  a:visited:active {
+    color: $footer-link-color;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:visited:hover,
+  a:active:hover {
+    color: $footer-link-color-hover;
+    transition: color 0.15s ease-in-out;
+  }
+
+  @media (min-width: #{$layout-breakpoint}) {
+    flex-direction: row;
+
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <title>Music Is Life</title>
+  </head>
+  <body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark shadow fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/brand1.svg" alt="" width="35" height="35" class="d-inline-block align-text-top white-filter">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="poster">
+      <picture class="band-pic">
+        <source media="(max-width: 510px)" srcset="./assets/images/banda-sd.jpg">
+        <source media="(max-width: 1020px)" srcset="./assets/images/banda-1020w.jpg">
+        <source media="(max-width: 1560px)" srcset="./assets/images/banda-1560w.jpg">
+        <source media="(min-width: 1561px)" srcset="./assets/images/banda-2040w.jpg">
+        <img src="./assets/images/banda-1020w.jpg" alt="Band Poster" class="img-fluid img-cover">
+      </picture>
+    
+      <!-- Dejar más bonito el nombre del grupo -->
+      <h1 class="display-1 text-center mt-5 band-name">
+        Music Is Life
+      </h1>
+
+      <div class="container text-center p-5 concierto">
+        <button type="button" class="btn btn-primary btn-lg">
+          Próximo concierto en Getafe el 22/04
+        </button>
+      </div>
+    
+      <div class="container-fluid my-3 text-center feelings">
+        <img srcset="./assets/images/feelings-320w.jpg,
+        ./assets/images/feelings-480w.jpg 1.5x,
+        ./assets/images/feelings-640w.jpg 2x"
+        src="./assets/images/feelings-640w.jpg"
+        class="img-fluid rounded decoration-img"
+        alt="">
+      </div>
+      
+      <div class="d-flex flex-column align-items-center px-3 py-4 my-4 band-info">
+        <h2 class="text-center">
+          ¿Todavía no nos has escuchado?
+        </h2>
+        <p class="column-text py-1">
+          <!-- Hipster Ipsum -->
+          Cloud bread la croix you probably haven't heard of them blog taiyaki. Hella next level street art PBR&B chillwave plaid lomo godard bicycle rights health goth viral fam affogato. Fingerstache pug single-origin coffee disrupt.
+        </p>
+        <p class="column-text more-text">
+          <!-- Hipster Ipsum -->
+          Unicorn consequat try-hard synth. Yr artisan +1 tote bag. Leggings authentic green juice qui PBR&B godard et before they sold out pok pok thundercats raw denim pork belly celiac eiusmod. Enamel pin waistcoat four loko, minim subway tile mollit XOXO seitan dreamcatcher wolf enim jean shorts. Reprehenderit quis four loko freegan typewriter consequat vinyl. Kinfolk polaroid magna, exercitation dolor hot chicken VHS brooklyn seitan bushwick williamsburg ugh cornhole artisan. Meh ex sriracha, veniam everyday carry live-edge +1.
+        </p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-light container-fluid d-flex flex-row align-items-center footer">
+
+      <img src="./assets/images/brand1.svg" alt="" width="35" height="35" class="align-text-top m-4">
+
+      <ul class="footer-links my-4">
+        <li>
+          <a aria-current="page" href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Page 2</a>
+        </li>
+        <li>
+          <a href="#">Page 3</a>
+        </li>
+        <li>
+          <a href="#">Page 4</a>
+        </li>
+      </ul>
+
+      <ul class="footer-links">
+        <li>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+
+    </footer>
+    
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>
