@@ -1,20 +1,28 @@
+.card {
+  min-width: min-content;
+}
+
+.card img {
+  max-width: 18rem;
+}
+.card .card-body {
+  max-width: 18rem;
+}
+
 @media (min-width: #{$layout-breakpoint}) {
-  .miembros {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 20px;
+  .card img {
+    width: 18rem;
   }
-  .card {
-    margin: auto;
+  .card .card-body {
+    width: 18rem;
   }
 }
 
 @media (min-width: #{$layout-big-breakpoint}) {
-  .miembros {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
+  .card img {
+    max-width: 22rem;
+  }
+  .card .card-body {
+    max-width: 22rem;
   }
 }
