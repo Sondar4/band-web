@@ -7,9 +7,11 @@ import "@babel/polyfill";
     3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
   How this works:
-    1.
-    2.
-    3.
+    1. Run Game
+    2. Look at current cells' state
+    3. Get future cell's state
+    4. Update cell's state
+    5. Wait a fraction of a second and go to #2
 */
 
 const gameOfLife = document.querySelector(".game-of-life");
