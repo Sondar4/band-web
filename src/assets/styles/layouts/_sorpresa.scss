@@ -1,0 +1,39 @@
+.body-container{
+  height: 690px;
+
+  @media (min-width: #{$layout-big-breakpoint}) {
+    height: 659px;
+  }
+}
+
+.game-of-life {
+  max-width: 560px;
+}
+
+.cell {
+  margin: 3px;
+  padding: 0;
+
+  width: 20px;
+  height: 18px;
+
+  background-color: #f8bbd0;
+  border-radius: 3px;
+}
+
+.cell:hover {
+  background-color: #ffeeff;
+  cursor: pointer;
+}
+
+.cell.alive {
+  background-color: #2979ff;
+}
+
+.cell.alive:hover {
+  background-color: #75a7ff;
+}
+
+#gameButton {
+  width: 120px;
+}
