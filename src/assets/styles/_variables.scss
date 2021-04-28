@@ -9,4 +9,8 @@ $footer-link-color: #212529;
 $footer-link-color-hover: color.adjust(#212529, $alpha: -0.4);
 
 // Modify Bootstrap base clases
-$btn-transition: color .15s ease-in-out, background-color .15s cubic-bezier(0.1, 0.7, 1.0, 0.1), border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+$btn-transition:
+  color .15s ease-in-out,
+  background-color .15s cubic-bezier(0.1, 0.7, 1.0, 0.1),
+  border-color .15s ease-in-out,
+  box-shadow .15s ease-in-out;
