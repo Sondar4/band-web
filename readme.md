@@ -1,2 +1,1 @@
-Uncaught ReferenceError: regeneratorRuntime is not defined
-https://babeljs.io/docs/en/babel-polyfill/
+# Web del grupo de música (inventado) Music Is Life
