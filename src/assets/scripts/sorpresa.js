@@ -9,8 +9,8 @@ import "@babel/polyfill";
   How this works:
     1. Run Game
     2. Look at current cells' state
-    3. Get future cell's state
-    4. Update cell's state
+    3. Get future cells' state
+    4. Update cells' state
     5. Wait a fraction of a second and go to #2
 */
 
